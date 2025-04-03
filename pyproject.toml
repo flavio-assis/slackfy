@@ -1,0 +1,13 @@
+[project]
+name = "slackfy"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "loguru>=0.7.3",
+    "requests>=2.32.3",
+    "slack-bolt>=1.23.0",
+    "slack-sdk>=3.35.0",
+    "spotipy>=2.25.1",
+]
